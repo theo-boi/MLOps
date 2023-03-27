@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/6c3b2b62996945c98d3346bb257ad56d/artifacts
+end_time: 1679907972264
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 6c3b2b62996945c98d3346bb257ad56d
+run_name: loud-grub-794
+run_uuid: 6c3b2b62996945c98d3346bb257ad56d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907972157
+status: 3
+tags: []
+user_id: boiss

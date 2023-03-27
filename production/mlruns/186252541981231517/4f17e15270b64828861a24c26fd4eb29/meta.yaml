@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/4f17e15270b64828861a24c26fd4eb29/artifacts
+end_time: 1679907976681
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 4f17e15270b64828861a24c26fd4eb29
+run_name: loud-shoat-173
+run_uuid: 4f17e15270b64828861a24c26fd4eb29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907976594
+status: 3
+tags: []
+user_id: boiss

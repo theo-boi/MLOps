@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/90661d20cfd24a8ba0149cc46e5a8348/artifacts
+end_time: 1679907976375
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 90661d20cfd24a8ba0149cc46e5a8348
+run_name: sassy-wolf-17
+run_uuid: 90661d20cfd24a8ba0149cc46e5a8348
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907976277
+status: 3
+tags: []
+user_id: boiss

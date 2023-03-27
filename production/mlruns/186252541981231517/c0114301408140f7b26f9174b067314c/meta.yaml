@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/c0114301408140f7b26f9174b067314c/artifacts
+end_time: 1679907974800
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: c0114301408140f7b26f9174b067314c
+run_name: thundering-ray-591
+run_uuid: c0114301408140f7b26f9174b067314c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907974713
+status: 3
+tags: []
+user_id: boiss

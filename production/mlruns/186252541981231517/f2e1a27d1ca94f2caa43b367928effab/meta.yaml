@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/f2e1a27d1ca94f2caa43b367928effab/artifacts
+end_time: 1679907972877
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: f2e1a27d1ca94f2caa43b367928effab
+run_name: adorable-shrimp-69
+run_uuid: f2e1a27d1ca94f2caa43b367928effab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907972783
+status: 3
+tags: []
+user_id: boiss

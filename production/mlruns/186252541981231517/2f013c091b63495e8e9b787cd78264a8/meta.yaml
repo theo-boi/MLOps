@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/2f013c091b63495e8e9b787cd78264a8/artifacts
+end_time: 1679907971928
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 2f013c091b63495e8e9b787cd78264a8
+run_name: dazzling-horse-106
+run_uuid: 2f013c091b63495e8e9b787cd78264a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907971838
+status: 3
+tags: []
+user_id: boiss

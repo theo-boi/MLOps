@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/21798f60231445fa95300ebf0d7143b4/artifacts
+end_time: 1679907971211
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 21798f60231445fa95300ebf0d7143b4
+run_name: popular-ape-370
+run_uuid: 21798f60231445fa95300ebf0d7143b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907971115
+status: 3
+tags: []
+user_id: boiss

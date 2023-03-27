@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/11114b99e74840a29734f2d5f0e962ae/artifacts
+end_time: 1679907969676
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 11114b99e74840a29734f2d5f0e962ae
+run_name: illustrious-dove-805
+run_uuid: 11114b99e74840a29734f2d5f0e962ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907969447
+status: 3
+tags: []
+user_id: boiss

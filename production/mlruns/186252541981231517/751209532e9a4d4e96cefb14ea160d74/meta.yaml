@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/751209532e9a4d4e96cefb14ea160d74/artifacts
+end_time: 1679907973203
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 751209532e9a4d4e96cefb14ea160d74
+run_name: tasteful-bee-636
+run_uuid: 751209532e9a4d4e96cefb14ea160d74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907973101
+status: 3
+tags: []
+user_id: boiss

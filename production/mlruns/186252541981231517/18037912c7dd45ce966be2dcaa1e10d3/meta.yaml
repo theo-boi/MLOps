@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/18037912c7dd45ce966be2dcaa1e10d3/artifacts
+end_time: 1679907970042
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 18037912c7dd45ce966be2dcaa1e10d3
+run_name: nervous-kite-105
+run_uuid: 18037912c7dd45ce966be2dcaa1e10d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907969941
+status: 3
+tags: []
+user_id: boiss

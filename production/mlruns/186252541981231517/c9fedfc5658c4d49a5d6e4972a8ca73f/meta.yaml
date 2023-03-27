@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/c9fedfc5658c4d49a5d6e4972a8ca73f/artifacts
+end_time: 1679907973621
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: c9fedfc5658c4d49a5d6e4972a8ca73f
+run_name: valuable-loon-166
+run_uuid: c9fedfc5658c4d49a5d6e4972a8ca73f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907973535
+status: 3
+tags: []
+user_id: boiss

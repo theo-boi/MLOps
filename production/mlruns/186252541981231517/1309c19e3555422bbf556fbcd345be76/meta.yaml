@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/boiss/workspaces/Conda/MLOps/production/mlruns/186252541981231517/1309c19e3555422bbf556fbcd345be76/artifacts
+end_time: 1679907977673
+entry_point_name: ''
+experiment_id: '186252541981231517'
+lifecycle_stage: active
+run_id: 1309c19e3555422bbf556fbcd345be76
+run_name: suave-zebra-854
+run_uuid: 1309c19e3555422bbf556fbcd345be76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679907977586
+status: 3
+tags: []
+user_id: boiss
