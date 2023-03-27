@@ -1,6 +1,0 @@
-mlflow
-cffi==1.15.1
-keras==2.6.0
-pillow==9.4.0
-scipy==1.7.1
-tensorflow==2.6.0
