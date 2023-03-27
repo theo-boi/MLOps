@@ -1,3 +1,12 @@
+# Data
+input/
+dependencies/
+mlruns/
+model/
+sample_requests/
+best_pred.text
+data.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

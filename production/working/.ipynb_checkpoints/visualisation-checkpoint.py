@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 
 
 def plot(predictions_data, last=0, hspace=1, fig_size=(16, 16)):
-    if last <= 0:
+    if 0 < last <= len(predictions_data):
+        sample = predictions_data[-last:]
+    else:
         sample = predictions_data
-    sample = predictions_data[-last:]
 
     cols = int(len(sample)**.5)
     rows = (len(sample) + cols - 1) // cols
