@@ -1,0 +1,17 @@
+artifact_path: model
+flavors:
+  keras:
+    code: null
+    data: data
+    keras_module: tensorflow.keras
+    keras_version: 2.6.0
+    save_format: tf
+  python_function:
+    data: data
+    env: conda.yaml
+    loader_module: mlflow.keras
+    python_version: 3.8.15
+mlflow_version: 1.26.1
+model_uuid: 8494565dd6e54e4ea8e7ff14c61f92a6
+run_id: khaki_parsnip_0nh4r3mgw2
+utc_time_created: '2023-03-24 22:31:34.472117'

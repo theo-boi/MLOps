@@ -1,8 +1,6 @@
 # Data
-input/
 dependencies/
 mlruns/
-model/
 sample_requests/
 best_pred.txt
 data.*

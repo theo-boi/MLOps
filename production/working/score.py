@@ -5,18 +5,19 @@ from PIL import Image
 from io import StringIO
 from mlflow.pyfunc.scoring_server import predictions_to_json
 
-
-# Set up MLflow tracking
-experiment_name = "inference"+str(random.randint(10000,100000))
-mlflow.set_experiment(experiment_name)
-client = mlflow.MlflowClient()
-
+tick = 0
 
 def init(model_path):
     global model
     global input_schema
-    # "model" is the path of the mlflow artifacts when the model was registered. For automl
-    # models, this is generally "mlflow-model".
+    
+    # Set up MLflow tracking
+    random.seed()
+    experiment_name = "inference"+str(random.randint(10000,100000))
+    random.seed(0)
+    mlflow.set_experiment(experiment_name)
+    client = mlflow.MlflowClient()
+    
     model = mlflow.pyfunc.load_model(model_path)
     input_schema = model.metadata.get_input_schema()
     os.environ['MLFLOW_TRACKING_FORCE_NO_GIT'] = '1'
@@ -36,6 +37,9 @@ def average(lst):
 
 
 def run(raw_data):
+    global tick
+    tick += 1
+    
     json_data = json.loads(raw_data)
     if 'dataframe_split' not in json_data.keys():
         raise Exception("Request must contain a top level key named 'dataframe_split'")
@@ -52,6 +56,8 @@ def run(raw_data):
     with mlflow.start_run(run_id=run_id):
         predictions = model.predict(data)
         
+        mlflow.log_metric("tick", tick)
+        
         best_prediction = int(np.argmax(predictions, axis=1))
         best_proba = np.max(predictions, axis=1)
         worst_proba = np.min(predictions, axis=1)
@@ -59,6 +65,7 @@ def run(raw_data):
         # log predicted probabilities as metrics
         for i, p in enumerate(predictions[0]):
             mlflow.log_metric(f'probability_class_{i}', p)
+        mlflow.log_metric("prediction", best_prediction)
         
         # Log the predictions as an artifact
         with open("best_pred.txt", "w") as f:
@@ -67,9 +74,9 @@ def run(raw_data):
 
         # Log any anomalous predictions as a metric
         if best_proba < 0.9:
-            mlflow.log_metric("anomalous_pred_proba", best_proba, step=i)
-        if worst_proba > 0.1:
-            mlflow.log_metric("anomalous_pred_proba", worst_proba, step=i)
+            mlflow.log_metric("anomalous_pred_proba", best_proba)
+        if worst_proba > 0.01:
+            mlflow.log_metric("anomalous_pred_proba", worst_proba)
         avg_preds = average(predictions[0])
         if round(avg_preds, 1) != 0.1:
             mlflow.log_metric('anomalous_avg_probas', avg_preds)

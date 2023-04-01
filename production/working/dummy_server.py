@@ -1,6 +1,7 @@
+import os, sys, json
 import numpy as np
 import pandas as pd
-import os, sys, json
+from tqdm import tqdm
 
 class DummyServer:
     def __init__(self, input_df, storage):
@@ -18,7 +19,7 @@ class DummyServer:
                 json.dump(sample_request, output, indent=4)
     
     def do_GET(self):
-        for file in os.listdir(self.storage):
+        for file in tqdm(os.listdir(self.storage)):
             try:
                 if file[0] == '.': continue
                 with open(os.path.join(self.storage, file), 'r') as f:
