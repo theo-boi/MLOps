@@ -1,6 +1,6 @@
 MLOps (Cloud & Production)
 ==========================
-*Supervised by Nicolas RAGOT and led by Théo BOISSEAU at the Ecole Polytechnique of the University of Tours.*
+*Supervised by Nicolas RAGOT and led by Théo BOISSEAU at the Ecole Polytechnique de l'Université de Tours.*
 
 
 Goals
